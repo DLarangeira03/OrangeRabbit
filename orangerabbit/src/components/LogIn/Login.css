@@ -1,0 +1,128 @@
+.loginBackground {
+    background-image: url("../../Background.jpg");
+    width: 100%;
+    height: auto;
+
+}
+
+.head {
+    
+}
+
+.titulo {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font: bold;
+    -webkit-text-stroke: 2px #fa5c00;
+    font-size: 500%;
+}
+
+.wrapper{
+    margin-left: 20%;
+    padding: 0;
+    box-sizing: border-box;
+    width: 60%;
+    height: 100%;
+    background-color: #242323;
+    color: rgb(255, 255, 255);
+    border: 3px solid #efefef;
+    font: bold;
+    -webkit-text-stroke: 2px #fa5c00;
+    text-align: center;
+
+}
+
+.wrapper h1{
+    color: rgb(255, 255, 255);
+    font: bold;
+    -webkit-text-stroke: 2px #fa5c00;
+    font-size: 400%;
+}
+
+.wrapper .input-box{
+    position: relative;
+    margin: 5%;
+    -webkit-text-stroke: 2px #fa5c00;
+    font-size: 250%;
+    text-align: center;
+}
+
+.input-box input{
+    width: 75%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+    color: #ffffff;
+
+}
+
+.input-box .icon{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 50px;
+}
+
+.butlog {
+    appearance: none;
+    background-color: #d15503;
+    border: 7px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 40px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 10px 30% ;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 20px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 30%;
+    will-change: transform;
+}
+
+.butlog:disabled {
+  pointer-events: none;
+}
+
+.butlog:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.butlog:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.footer{
+    height: auto;
+    margin-top: 5%;
+    background-color: black;
+    text-align: center;
+    color: chocolate;
+}
+
+.invalid-credentials{
+    font-size: 2rem;
+}

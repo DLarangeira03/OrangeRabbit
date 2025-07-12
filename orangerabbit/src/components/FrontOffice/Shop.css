@@ -1,0 +1,73 @@
+.back {
+    background-image: url("../../Background.jpg");
+    width: 100%;
+    height: auto;
+}
+
+.head {
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo {
+    color: rgb(255, 255, 255);
+    font: bold;
+    -webkit-text-stroke: 2px #fa5c00;
+    font-size: 36px; /* Ajuste o tamanho da fonte para dispositivos móveis */
+}
+
+.sub {
+    color: rgb(108, 106, 106);
+    font: bold;
+}
+
+.footer {
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+    color: chocolate;
+    height: auto;
+}
+
+@media (max-width: 767px) {
+    .titulo {
+        font-size: 24px; /* Ajuste adicional para o título em telas pequenas */
+    }
+
+    .footer {
+        font-size: 14px; /* Ajuste o tamanho do texto do rodapé em telas pequenas */
+    }
+}
+
+/*.back {
+    background-image: url("../../Background.jpg");
+    width: auto;
+    height: auto;
+}
+
+.head {
+    width: auto;
+    height: auto;
+}
+
+.titulo {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font: bold;
+    -webkit-text-stroke: 2px #fa5c00;
+    font-size: 500%;
+}
+
+.sub {
+    text-align: center;
+    color: rgb(108, 106, 106);
+    font: bold;
+}
+
+.footer{
+    height: auto;
+    margin-top: 5%;
+    background-color: black;
+    text-align: center;
+    color: chocolate;
+}*/
